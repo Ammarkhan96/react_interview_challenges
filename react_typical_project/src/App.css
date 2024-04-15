@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  background: rgb(21,121,9);
+  background: linear-gradient(90deg, hwb(184 4% 53%) 35%, rgba(27,149,15,1) 50%, rgb(0, 255, 200) 100%);
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
