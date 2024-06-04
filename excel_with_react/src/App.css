@@ -1,0 +1,21 @@
+header {
+  padding: 0.5rem;
+  background: rgb(1, 114, 58);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.btn {
+  border-color: transparent;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 10%;
+  height: 40px;
+  background-color: deepskyblue;
+  font-weight: 300;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
