@@ -36,7 +36,7 @@ function App() {
           setVerPDF(false);
         }}
       >
-        {verWeb ? "Ocultar Web" : "Ver Web"}
+        {verWeb ? "Disguise Web" : "Verse Web"}
       </Button>
       <Button
         variant="dark"
@@ -45,13 +45,13 @@ function App() {
           setVerWeb(false);
         }}
       >
-        {verPDF ? "Ocultar PDF" : "Ver PDF"}
+        {verPDF ? "Disguise PDF" : "Verse PDF"}
       </Button>
       <div
         document={<DocuPDF poema={poema} />}
         fileName="poema.pdf"
       >
-        <Button variant="info">Descargar PDF</Button>
+        <Button variant="info">Download PDF</Button>
       </div>
     </nav>
   );
