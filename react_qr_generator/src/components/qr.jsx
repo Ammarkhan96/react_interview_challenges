@@ -15,7 +15,7 @@ const Qr = () => {
 
             <div style={{ marginTop: 30 }}>
                 <form>
-                    <input onChange={handleChange} value={qr} type="text" name="name" variant="outlined" placeholder="QR Name" />
+                <input onChange={handleChange} value={qr} type="text" name="name" variant="outlined" placeholder="QR Name" />
                 </form>
             </div>
 
